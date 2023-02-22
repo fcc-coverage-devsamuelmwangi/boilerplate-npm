@@ -1,6 +1,9 @@
 {
+	"version": "1.2.0",
 	"name": "fcc-learn-npm-package-json",
 	"author": "Samuel G. Mwangi",
+	"description": "A project that does something awesome",
+	"keywords": [ "freecodecamp", "related", "words" ],
 	"dependencies": {
 	  "express": "^4.14.0"
 	},
@@ -8,11 +11,9 @@
 	"scripts": {
 	  "start": "node server.js"
 	},
-	"engines": {
-	  "node": "8.11.2"
-	},
 	"repository": {
 	  "type": "git",
 	  "url": "https://github.com/fcc-coverage-devsamuelmwangi/boilerplate-npm"
-	}
+	},
+	"license": "MIT"
   }
